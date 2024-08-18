@@ -221,7 +221,7 @@ export const auth = new Elysia()
     }
   })
   .post(
-    "create-account",
+    "/create-account",
     async ({ body }) => {
       return await Bun.password.hash(body.password);
     },
