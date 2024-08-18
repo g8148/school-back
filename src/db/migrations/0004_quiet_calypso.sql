@@ -1,0 +1,1 @@
+ALTER TABLE "event_class" ALTER COLUMN "event_id" SET NOT NULL;

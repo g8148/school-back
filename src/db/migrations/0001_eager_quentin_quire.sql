@@ -1,0 +1,1 @@
+ALTER TABLE "eventClass" ALTER COLUMN "total_entries" SET DEFAULT 0;
