@@ -4,6 +4,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "bun run --watch src/index.ts",
+    "start": "bun run src/index.ts",
     "studio": "bunx drizzle-kit studio",
     "db:generate": "drizzle-kit generate",
     "db:migrate": "bun src/db/migrate.ts"
