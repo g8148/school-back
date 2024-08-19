@@ -9,7 +9,7 @@ new Elysia({ prefix: "/api" })
   .use(swagger())
   .use(
     cors({
-      origin: true,
+      origin: "*",
       credentials: true,
     }),
   )
