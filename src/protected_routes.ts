@@ -193,7 +193,7 @@ export const auth = new Elysia()
           value: await jwt.sign(body),
           httpOnly: true,
           maxAge: 3600 * 4, // 4 hours
-          sameSite: "strict",
+          // sameSite: "strict",
         });
       } else {
         return error(404, "User not found.");
