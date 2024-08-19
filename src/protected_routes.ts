@@ -195,6 +195,7 @@ export const auth = new Elysia()
           maxAge: 3600 * 4, // 4 hours
           sameSite: "none",
           secure: true,
+          partitioned: true,
         });
       } else {
         return error(404, "User not found.");
